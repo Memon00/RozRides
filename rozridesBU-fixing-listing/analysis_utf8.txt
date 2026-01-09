@@ -1,0 +1,66 @@
+﻿Analyzing rozridesBU...                                         
+
+  error - Classes can only extend other classes - android\new.dart:1:32 - extends_non_class
+  error - No associated named super constructor parameter - android\new.dart:2:33 - super_formal_parameter_without_associated_named
+  error - Undefined class 'State' - android\new.dart:5:3 - undefined_class
+warning - The method doesn't override an inherited method - android\new.dart:5:27 - override_on_non_overriding_member
+  error - Classes can only extend other classes - android\new.dart:8:38 - extends_non_class
+warning - The method doesn't override an inherited method - android\new.dart:10:8 - override_on_non_overriding_member
+  error - The method 'initState' isn't defined in a superclass of '_MyListingsScreenState' - android\new.dart:11:11 - undefined_super_member
+  error - Undefined name 'WidgetsBinding' - android\new.dart:12:5 - undefined_identifier
+  error - The method '_loadListings' isn't defined for the type '_MyListingsScreenState' - android\new.dart:13:7 - undefined_method
+  error - Expected to find '}' - android\new.dart:16:1 - expected_token
+warning - Unused import: 'package:cloud_firestore/cloud_firestore.dart' - lib\models\user_model.dart:1:8 - unused_import
+   info - The private field _images could be 'final' - lib\screens\add_listing_screen.dart:37:14 - prefer_final_fields
+   info - Don't use 'BuildContext's across async gaps - lib\screens\add_listing_screen.dart:71:30 - use_build_context_synchronously
+   info - 'WillPopScope' is deprecated and shouldn't be used. Use PopScope instead. The Android predictive back feature will not work with WillPopScope. This feature was deprecated after v3.12.0-1.0.pre - lib\screens\add_listing_screen.dart:133:29 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\screens\add_listing_screen.dart:159:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\add_listing_screen.dart:160:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\add_listing_screen.dart:188:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\add_listing_screen.dart:207:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\add_listing_screen.dart:347:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\car_detail_screen.dart:74:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\car_detail_screen.dart:424:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\car_detail_screen.dart:426:41 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\screens\home_screen.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\home_screen.dart:21:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\home_screen.dart:24:9 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:65:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:76:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:93:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:325:47 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\screens\my_listings_screen.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\my_listings_screen.dart:21:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\my_listings_screen.dart:27:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\my_listings_screen.dart:33:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\my_listings_screen.dart:35:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\my_listings_screen.dart:37:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\my_listings_screen.dart:281:22 - deprecated_member_use
+warning - The left operand can't be null, so the right operand is never executed - lib\screens\profile_screen.dart:33:45 - dead_null_aware_expression
+   info - Statements in an if should be enclosed in a block - lib\screens\profile_screen.dart:97:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\profile_screen.dart:99:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\profile_screen.dart:101:9 - curly_braces_in_flow_control_structures
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\profile_screen.dart:248:46 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:33:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:39:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:45:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:48:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:51:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:79:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:98:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:106:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:110:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:111:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:116:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:119:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:127:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:136:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:140:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:145:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:148:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:166:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\listing_service.dart:168:7 - avoid_print
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
